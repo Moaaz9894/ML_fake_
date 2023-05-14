@@ -48,13 +48,13 @@ xv_train = vectorizer.fit_transform(X_train)
 xv_test = vectorizer.transform(X_test)
 
 log_model= LogisticRegression()
-log_model.fit(xv_train, Y_train)
+#log_model.fit(xv_train, Y_train)
 
 ada_model= AdaBoostClassifier()
-ada_model.fit(xv_train, Y_train)
+#ada_model.fit(xv_train, Y_train)
 
 dt_model= DecisionTreeClassifier()
-dt_model.fit(xv_train, Y_train)
+#dt_model.fit(xv_train, Y_train)
 
 
 def output_lable(n):
