@@ -152,7 +152,7 @@ if (selected == 'logistic Regression'):
 
    
     # code for Prediction
-    ada_diagnosis = ''
+    log_diagnosis = ''
     
     # creating a button for Prediction
     
@@ -178,7 +178,7 @@ if (selected == 'DecisionTree'):
 
    
     # code for Prediction
-    ada_diagnosis = ''
+    dt_diagnosis = ''
     
     # creating a button for Prediction
     
