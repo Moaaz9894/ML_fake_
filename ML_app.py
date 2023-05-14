@@ -20,7 +20,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 # loading the saved models
 
-news_dataset = pd.read_csv("D:/AIU/train.csv")
+news_dataset = pd.read_csv("train.csv")
 news_dataset.isnull().sum()
 news_dataset = news_dataset.fillna('')
 news_dataset = news_dataset.drop(["title", "author"], axis = 1)
